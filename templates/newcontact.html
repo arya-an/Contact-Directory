@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="formaddcontact">
+    <form method="post">
+        {% csrf_token %}
+        <div class="rows">
+            <label>Name</label>
+        </div>
+        
+        <div class="rows">
+            <input type="text" name="Name" class="textitem" id="Name">
+        </div>
+        
+        <div class="rows">
+            <label>Contact</label>
+        </div>
+        
+        <div class="rows">
+            <input type="text" name="PhnNo"  class="textitem" id="PhnNo" pattern="[0-9]{10}" placeholder="0123456789">
+        </div>
+        
+        <div class="rows">
+            <input type="submit" value="SAVE" class="submitbtn validatebtn">
+        </div>
+        <div class="rows">
+            <a href="{% url 'contactlist' %}" class="submitbtn linkbutton">Contact List</a>
+        </div>
+        
+    </form>
+</div>
+
+{% endblock %}

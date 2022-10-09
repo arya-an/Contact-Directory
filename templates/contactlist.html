@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<table border="1" id="listid">
+<tr>
+    <th>Name</th>
+    <th colspan="4"></th>
+</tr>
+{% for i in contactlist%}
+<tr>
+    
+    <td>{{ i.Name}}</td>
+    <td><a href="{% url 'ContactDetail' pk=i.id %}">View</a></td>
+    <td><a href="/edit/{{ i.id }}">Edit</a></td>
+    <td><a href="/delete/{{ i.id }}" class="confirm">Delete</a></td>
+    
+</tr>
+{% endfor %}
+</table>
+
+{% endblock %}

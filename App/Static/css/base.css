@@ -1,0 +1,130 @@
+.maindiv{
+    height: 97vh;
+	width: 99%;
+    background-color: aliceblue;
+	margin-left: 0.1rem;
+    margin-top: 0.5rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+}
+.innerdiv{
+
+    height: 85vh;
+	width: 99%;
+    background-color: aliceblue;
+	margin-left:0.4rem;
+    margin-top: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.myheading{
+text-align: center;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:rgb(4, 79, 13)
+}
+.addcontactdiv{
+    background-color:#29CC97;
+    width:max-content;
+    height:max-content;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    text-align:center;
+    margin-top: 4px;
+    padding: 00.5rem;
+    border: 1px solid #0b412f;
+   
+
+}
+.addcontactdiv a{
+    text-decoration: none;
+    font-size: large;
+}
+.divforcontact{
+    height: 77vh;
+    width: 99%;
+    background-color: #98de5a;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+
+}
+.formaddcontact{
+    /* border: 1px solid black ; */
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+}
+.rows{
+    font-size: large;
+    margin-bottom: 0.8rem;
+    font-size:large;
+    font-weight: bold;
+}
+.textitem{
+    width: 140%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+}
+.submitbtn{
+    width: 63%;
+    margin-left: 4.5rem;
+    height: 2.5rem;
+    color: black;
+    font-size: large;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    
+
+}
+.listlink{
+    text-decoration: none;
+   
+}
+.rows a{
+    text-decoration: none;
+    width: 55%;
+    
+    font-family:'Tahoma';
+    
+    
+}
+.linkbutton{
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    padding:0.5rem 0.8rem;
+}
+#listid {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+  #listid td, #listid th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #listid tr
+  {background-color: #f2f2f2;}
+  
+  /* #listid tr:hover {background-color: #ddd;} */
+  
+  #listid th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  #listid td a {
+    text-decoration: none;
+    
+   
+  }

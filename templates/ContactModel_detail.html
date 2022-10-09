@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="formaddcontact">
+    <form method="post">
+        {% csrf_token %}
+        <div class="rows">
+            <label>Name</label>
+        </div>
+        
+        <div class="rows">
+            <input type="text" class="textitem" value={{object.Name}} readonly>
+        </div>
+        
+        <div class="rows">
+            <label>Contact</label>
+        </div>
+        
+        <div class="rows">
+            <input type="text" class="textitem" value={{object.PhnNo}} readonly>
+        </div>
+        <div class="rows">
+            <a href="{% url 'contactlist' %}" class="submitbtn linkbutton">Contact List</a>
+        </div>
+        
+        
+    </form>
+</div>
+
+{% endblock %}
